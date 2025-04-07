@@ -33,7 +33,7 @@ export default function App() {
           <div className="profile">
             <img
               className="profile-image"
-              src={process.env.PUBLIC_URL + "./images/avatar-michelle.jpg"}
+              src={process.env.PUBLIC_URL + "/images/avatar-michelle.jpg"}
               alt="avatar"
             />
             <div className="profile-info">
@@ -42,7 +42,7 @@ export default function App() {
             </div>
             <button onClick={handleClick} class="profile-icon-share">
               <img
-                src={process.env.PUBLIC_URL + "./images/icon-share.svg"}
+                src={process.env.PUBLIC_URL + "/images/icon-share.svg"}
                 alt="share"
                 className="share-icon"
               />
@@ -54,22 +54,22 @@ export default function App() {
 
             <div className="profile-icons">
               <img
-                src={process.env.PUBLIC_URL + "./images/icon-facebook.svg"}
+                src={process.env.PUBLIC_URL + "/images/icon-facebook.svg"}
                 alt="facebook"
               />
               <img
-                src={process.env.PUBLIC_URL + "./images/icon-pinterest.svg"}
+                src={process.env.PUBLIC_URL + "/images/icon-pinterest.svg"}
                 alt="pinterest"
               />
               <img
-                src={process.env.PUBLIC_URL + "./images/icon-twitter.svg"}
+                src={process.env.PUBLIC_URL + "/images/icon-twitter.svg"}
                 alt="twitter"
               />
             </div>
 
             <button onClick={handleClick} className="profile-icon-share">
               <img
-                src={process.env.PUBLIC_URL + "./images/icon-share.svg"}
+                src={process.env.PUBLIC_URL + "/images/icon-share.svg"}
                 alt="share"
                 className="share-icon"
               />
